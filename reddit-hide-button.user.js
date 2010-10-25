@@ -4,6 +4,9 @@
 // @run-at document-start
 // ==/UserScript==
 
+// the following code is jquery.  for the real meat of this script, scroll to
+// the bottom.
+
 /*!
  * jQuery JavaScript Library v1.4.3
  * http://jquery.com/
@@ -172,6 +175,8 @@ c.fn["inner"+b]=function(){return this[0]?parseFloat(c.css(this[0],d,"padding"))
 b],f.body["scroll"+b],f.documentElement["scroll"+b],f.body["offset"+b],f.documentElement["offset"+b]):e===A?parseFloat(c.css(f,d)):this.css(d,typeof e==="string"?e:e+"px")}})})(window);
 
 // end jquery
+
+// the following code is released to the public domain.
 
 $('div.link div.midcol div.arrow').css('margin-right', '0px');
 
